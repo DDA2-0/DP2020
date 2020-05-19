@@ -17,3 +17,7 @@ body{
       padding: 5%;
       /* background-color: #d1fff593; */
 }
+.title a:link, a:visited, a:hover, a:active, a:focus{
+      color: #ffffff;
+      text-decoration: none;
+}
