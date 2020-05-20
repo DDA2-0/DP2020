@@ -8,7 +8,27 @@ body{
       background-position-x: center;
       background-position-y: -400px;
 }
-.title{
+
+header{
+      padding: 10% 5%;
+      position: fixed;
+      background-color: rgb(255, 182, 45);
+}
+
+nav ul{
+      list-style: none;
+      font-family: 'Crimson Text', sans-serif;
+      clear: both;
+}
+
+.title1{
+      width: 300px;
+      height: 40px;
+      font-family: 'Crimson Text', serif;
+      color: #ffffff;
+}
+
+.title2{
       /* width: 300px; */
       height: 50px;
       font-family: 'Crimson Text', serif;
@@ -17,7 +37,13 @@ body{
       padding: 5%;
       /* background-color: #d1fff593; */
 }
-.title a:link, a:visited, a:hover, a:active, a:focus{
+
+.title1 a:link, a:visited, a:hover, a:active, a:focus{
+      color: #ffffff;
+      text-decoration: none;
+}
+
+.title2 a:link, a:visited, a:hover, a:active, a:focus{
       color: #ffffff;
       text-decoration: none;
 }
