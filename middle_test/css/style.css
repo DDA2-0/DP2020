@@ -6,6 +6,7 @@
 body{
       margin: 0px;
       font-family: 'Nanum Gothic', sans-serif;
+      z-index: -1px;
 }
 #wrap{
       min-width: 900px;
@@ -76,6 +77,11 @@ footer ul li{
       margin: 0px;
       padding: 50px;
 }
+.title2:hover{
+      opacity: 0.6;
+      letter-spacing: 30px;
+      transition: 1s;
+}
 .title3{
       height: 50px;
       font-family: 'Crimson Text', serif;
@@ -86,18 +92,15 @@ footer ul li{
       vertical-align: middle;
       margin: 0px;
       padding: 50px;
-}
-.title2:hover{
-      opacity: 0.6;
-      letter-spacing: 30px;
+      opacity: 1.0;
+      letter-spacing: 2px;
       transition: 1s;
 }
 .title3:hover{
       opacity: 0.6;
-      letter-spacing: 30px;
+      letter-spacing: 20px;
       transition: 1s;
 }
-
 
 .scroll{
       height: 900px;
@@ -108,9 +111,13 @@ a:link, a:visited, a:hover, a:active, a:focus{
       text-decoration: none;
 }
 
-#main{
+#contents{
       background-color: rgb(255, 227, 148);
       color: rgb(255, 128, 82);
+      
+      padding:0 !important;
+      margin:0;
+      font-size: 0;
 }
 
 #join{
@@ -146,6 +153,7 @@ a:link, a:visited, a:hover, a:active, a:focus{
       position: fixed;
       top: 100px;
       left: 10px;
+      z-index: 999;
 }
 
 .scrollbar ul li{
@@ -154,24 +162,24 @@ a:link, a:visited, a:hover, a:active, a:focus{
       padding: 5px;
 }
 
-/* .scrollbar a:link, a:visited, a:hover, a:active, a:focus{ 
-      color: #ffa500;
+.scrollbar a:link, a:visited, a:hover, a:active, a:focus{ 
+      color: #db4500;
       text-decoration: none;
-}*/
+}
 
 #Profile {
       text-align: center;
 }
 #Profile img{
-      width : 40% ;
+      width : 1000px ;
       
       display: block;
       margin: auto;
 }
 #Profile table {
-      width : 43% ;
+      width : 1000px ;
       display: block;
-      margin: auto;
+      margin: 10px auto;
 }
 
 #Profile table tr td{
@@ -180,22 +188,38 @@ a:link, a:visited, a:hover, a:active, a:focus{
       padding: 0px 10px;
 }
 hr {
-      margin-top: 300px;
+      padding-top: 250px;
       border-style: none;
 }
+.main_visual{
+      position: relative;
+}
+#main1tit{
+      position: absolute;
+      z-index: 10;
+}
 video{
+      position: absolute;
       overflow:hidden;
       width: auto;
-      height: 700px;
-      display: block;
-      margin: auto;
-      /* background-color: rgb(255, 182, 45); */
+      width: 100%;
+      top:0px;
+      margin: 0px;
+      z-index: 1;
 }
-
+#section_album{
+      background-color: rgb(255, 193, 101);
+      color: rgb(255, 128, 82);
+      display: block;
+      padding:0 !important;
+      margin:0;
+      font-size: 0;
+}
 #Album{
       display: block;
       margin: auto;
       width: 800px;
+      color:#ffffff;
 }
 .img_left{
       width: 340px;
@@ -221,6 +245,7 @@ video{
       display: block;
       margin: auto;
       width: 800px;
+      padding: 50px 0 100px 0;
 }
 #Music_Video iframe{
       overflow:hidden;
@@ -229,7 +254,9 @@ video{
       display: block;
       margin: auto;
 }
-
+#section_Interview{
+      background-color: rgb(255, 193, 101);
+}
 #Interview{
       display: block;
       margin: auto;
@@ -238,6 +265,9 @@ video{
 
 #Interview img{
       width: 800px;
+}
+#Interview p{
+      color:#ff7a0e;
 }
 
 .Totop{
