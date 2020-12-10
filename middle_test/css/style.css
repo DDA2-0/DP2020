@@ -15,6 +15,7 @@ body{
       margin-right: auto;
 }
 #index{
+      position: relative;
       background-image: URL("../img/o_1e2n6mp6qi2is0m1n6sul712ili.jpg");
       background-size: cover;
       background-repeat: no-repeat;
@@ -76,6 +77,7 @@ footer ul li{
       vertical-align: middle;
       margin: 0px;
       padding: 50px;
+      transition: 1s;
 }
 .title2:hover{
       opacity: 0.6;
